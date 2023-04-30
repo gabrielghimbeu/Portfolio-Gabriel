@@ -4,21 +4,21 @@ var language = {
     en:{
 
         aboutCategory: "About me",
-        animCategory: "3D Animations",
-        otherCategory: "Other personnal stuff"
+        animCategory: "3D animations",
+        otherCategory: "Other personnal creations"
 
     },
     fr:{
 
         aboutCategory: "A propos de moi",
         animCategory: "Animations 3D",
-        otherCategory: "Autres trucs personnels"
+        otherCategory: "Autres créations personnelles"
 
     },
     ro:{
         aboutCategory: "Despre mine",
         animCategory: "Animatii 3D",
-        otherCategory: "Alte chesti personale"
+        otherCategory: "Alte creati personale"
 
     }
 
@@ -54,7 +54,7 @@ function changeLanguage(){
 
 
 }
-
+//add language menu instead of arrow keys
 document.addEventListener("keydown", function(event) {
 
 
