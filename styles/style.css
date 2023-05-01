@@ -57,11 +57,13 @@ header{
 
 .buttons>div{
 
-    background-color: darkorange;
+    background-color: #A80000;
     font-family: 'Memphis';
     font-size: 20px;
     border-radius: 0 20px 20px 0;
+    color: white;
     border-color: black;
+    filter: drop-shadow(5px 5px 0px black);
     border-style: solid;
     padding: 20px;
     text-align: center;
@@ -83,7 +85,8 @@ header{
     display: none;
     margin-left: -10px;
     position: absolute;
-    background-color: orange;
+    background-color: #A80000;
+    color: white;
     border-radius: 20px;
     padding: 20px;
     font-family: 'Memphis';
