@@ -26,7 +26,8 @@ var language = {
 
     }
 
-};
+}
+
 
 
 function changeLanguage(){

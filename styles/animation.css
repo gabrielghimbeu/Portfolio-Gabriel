@@ -1,12 +1,13 @@
 body{
 
     margin: 0;
+    background: url('../images/anim/bg.png') no-repeat center center fixed;
+    background-size: cover;
 
 }
 
 header{
 
-    background-color: aqua;
     font-family: 'Memphis';
     font-size: 50px;
     padding: 15px;
@@ -34,8 +35,6 @@ img, video{
 .imageContainer{
 
     position: relative;
-    width: 640px;
-    height: 480px;
     z-index: 5;
 
 }

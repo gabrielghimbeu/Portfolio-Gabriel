@@ -1,12 +1,13 @@
 body{
 
     margin: 0;
+    background: url('../images/other/bg.png') no-repeat center center fixed;
+    background-size: cover;
 
 }
 
 header{
 
-    background-color: aqua;
     font-family: 'Memphis';
     font-size: 50px;
     padding: 15px;
@@ -62,20 +63,6 @@ details{
 
 }
 
-input{
-
-    display: none;
-
-}
-
-
-
-input:checked+label{
-
-    transform: rotate(90deg);
-
-}
-
 .overlay{
 
     position: absolute;
@@ -90,7 +77,6 @@ input:checked+label{
     transition: 0.2s;
 
 }
-
 
 .overlayTitle{
 
@@ -147,16 +133,11 @@ input:checked+label{
 
 }
 
-@font-face{
-
-    font-family: Memphis;
-    src: url("/fonts/Memphis.ttf");
-
-}
-
 .creations{
 
-    padding: 20px;
+    padding: 20px;  
+    width: auto;
+    
 
 }
 
@@ -174,7 +155,6 @@ input:checked+label{
     display: grid;
     justify-items: center;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
     gap: 50px;
     opacity: 1;
     height: 100%;
@@ -197,8 +177,13 @@ input:checked+label{
     display: grid;
     justify-items: center;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
     gap: 50px;
 
 }
 
+@font-face{
+
+    font-family: Memphis;
+    src: url("/fonts/Memphis.ttf");
+
+}
