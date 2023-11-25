@@ -8,7 +8,7 @@ body{
 
 header{
 
-    font-family: 'Memphis';
+    font-family: 'Visitor';
     font-size: 50px;
     padding: 15px;
     font-weight: bold;
@@ -67,7 +67,7 @@ img, video{
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 40px;
-    font-family: 'Memphis';
+    font-family: 'Visitor';
     text-align: center;
     text-shadow: 2px 2px 4px #000000;
 
@@ -81,7 +81,7 @@ img, video{
     transform: translate(-50%, -50%);
     color: white;
     font-size: 25px;
-    font-family: 'Memphis';
+    font-family: 'Visitor';
     text-align: center;
 
 }
@@ -96,7 +96,7 @@ img, video{
     background-color: aqua;
     padding: 20px;
     font-size: 25px;
-    font-family: 'Memphis';
+    font-family: 'Visitor';
     text-align: center;
     width: 50%;
     margin: auto;
@@ -113,7 +113,7 @@ img, video{
 
 @font-face{
 
-    font-family: Memphis;
-    src: url("/fonts/Memphis.ttf");
+    font-family: Visitor;
+    src: url("/fonts/Visitor.ttf");
 
 }

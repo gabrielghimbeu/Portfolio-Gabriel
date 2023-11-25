@@ -14,18 +14,113 @@ body{
     background: url('../images/bg.png') no-repeat center center fixed;
     background-size: cover;
 
-
 }
 
 header{
-    font-family: 'Memphis';
-    font-size: 50px;
+    font-family: 'Visitor';
+    font-size: 3rem;
     padding: 15px;
     font-weight: bold;
     font-style: italic;
-    z-index: 2  ;
+    z-index: 2;
+    text-align: left;
 
 }
+
+.navbar{
+
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    color: black;
+    align-items: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px;
+
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdownButton{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+.dropdownContent {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: inherit;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    width: 100%;
+    z-index: 1;
+}
+
+.dropdownContent label {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+  }
+
+.dropdown:hover .dropdownContent {
+    display: block;
+}
+
+input
+{   
+    display: none; 
+}
+
+input:checked+label
+{   
+    color: green;
+
+}
+
+.content{
+
+    background-color: gray;    
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 16px;
+    height: 50%;
+
+}
+
+.reel{
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    height: 100%;
+}
+
+.off{
+
+    display: none;
+
+}
+
+
+.anim3d { grid-area: 1 / 1 / 4 / 2; }
+.model3d { grid-area: 1 / 2 / 2 / 3; }
+.games { grid-area: 2 / 2 / 3 / 3; }
+.illustrations { grid-area: 3 / 2 / 4 / 3; }
+
 
 /* .fg{
 
@@ -45,17 +140,7 @@ header{
     animation: float 5s ease-in-out infinite;
     filter: drop-shadow(10px 5px 0px black);
 
-
 }
-
-/* .content{
-
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-    height: 80vh;
-
-} */
 
 .buttons{
 
@@ -64,16 +149,15 @@ header{
     margin-left: -10px;
     row-gap: 40px;
     margin-top: 5%;
-
+    
 
 }
 
 .buttons>div{
 
     background-color: #A80000;
-    font-family: 'Memphis';
-    font-size: 20px;
-    border-radius: 0 20px 20px 0;
+    font-family: 'Visitor';
+    font-size: 25px;
     color: white;
     border-color: black;
     filter: drop-shadow(5px 5px 0px black);
@@ -100,14 +184,13 @@ header{
     position: absolute;
     background-color: #A80000;
     color: white;
-    border-radius: 20px;
     padding: 20px;
-    font-family: 'Memphis';
+    font-family: 'Visitor';
     font-size: 20px;
     width: 60%;
     border-color: black;
+    filter: drop-shadow(5px 5px 0px black);
     border-style: solid;
-    border-radius: 0 20px 20px 0;
     margin-top: 15px;
 
 }
@@ -169,8 +252,8 @@ header{
 
 @font-face{
 
-    font-family: Memphis;
-    src: url("/fonts/Memphis.ttf");
+    font-family: Visitor;
+    src: url("/fonts/Visitor.ttf");
 
 }
 
