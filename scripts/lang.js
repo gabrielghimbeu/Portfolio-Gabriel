@@ -9,7 +9,7 @@ var language = {
 
         hi: "Hi, I'm Gabriel!",
         
-        aboutSection: "I am currently in my 1st year of University Bachelor of Technology, in Multimedia and Internet professions at the IUT of Mulhouse.<br>I love creating things, learning and discovering new passions. I am an ambitious and creative person, who tries his best to make his dreams come true.<br>In this portfolio, you will find all the creations that I have made, whether it is in the context of my studies or on my free time."
+        aboutSection: "I am currently in my 2nd year of University Bachelor of Technology, in Multimedia and Internet professions at the IUT of Mulhouse.<br>I love creating things, learning and discovering new passions. I am an ambitious and creative person, who tries his best to make his dreams come true.<br>In this portfolio, you will find all the creations that I have made, whether it is in the context of my studies or on my free time."
         
 
     },
@@ -20,7 +20,7 @@ var language = {
         otherCategory: "Autres créations personnelles",
 
         hi: "Salut, moi c'est Gabriel !",
-        aboutSection: "Je suis actuellement en 1ère année de BUT en Métiers du Multimédia et de l'Internet à l'IUT de Mulhouse<br>J'adore créer, apprendre et me découvrir de nouvelles passions. Je suis quelqu'un d'ambitieux et de créatif, qui n'hésite pas à faire de ses rêves une réalité<br>À travers ce portfolio, vous allez retrouver toutes les créations que j'ai pu réaliser, que ce soit dans le cadre de mes études ou en dehors."
+        aboutSection: "Je suis actuellement en 2ème année de BUT en Métiers du Multimédia et de l'Internet à l'IUT de Mulhouse<br>J'adore créer, apprendre et me découvrir de nouvelles passions. Je suis quelqu'un d'ambitieux et de créatif, qui n'hésite pas à faire de ses rêves une réalité<br>À travers ce portfolio, vous allez retrouver toutes les créations que j'ai pu réaliser, que ce soit dans le cadre de mes études ou en dehors."
 
     },
     ro:{
@@ -29,7 +29,7 @@ var language = {
         otherCategory: "Alte creații personale",
 
         hi: "Salut, eu sunt Gabriel!",
-        aboutSection: "în acest moment, sunt în primul an de licență în multimedia și internet la IUT din Mulhouse. Îmi place să creez, să învăț și să descopăr noi pasiuni. Sunt o persoană ambițioasă și creativă care nu ezită să își îndeplinească visele. În acest portofoliu, veți găsi toate creațiile pe care le-am realizat, atât în cadrul studiilor mele, cât și în afara lor."
+        aboutSection: "în acest moment, sunt în al doilea an de licență în multimedia și internet la IUT din Mulhouse. Îmi place să creez, să învăț și să descopăr noi pasiuni. Sunt o persoană ambițioasă și creativă care nu ezită să își îndeplinească visele. În acest portofoliu, veți găsi toate creațiile pe care le-am realizat, atât în cadrul studiilor mele, cât și în afara lor."
 
     }
 
